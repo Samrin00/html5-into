@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banner</title>
+    <link rel="stylesheet" href="style/banner.css">
+    <style>
+        .hero-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: lightgreen;
+        }
+        .hero-container div {
+            max-width: 50%;
+        }
+        .hero-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .hero-container button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .hero-container button:hover {
+            background-color: #0056b3;
+        }
+        .class {
+            text-align: center;
+            font-size: 24px;
+            margin: 20px 0;
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <header class="class"><b>About developer</b></header>
+    <main>
+        <section class="hero-container">
+            <div>
+                <h1>welcome to my website</h1>
+                <p>I'm a web developer specializing in front-end development. I create beautiful and functional websites.</p>
+                <button>Join us</button>
+            </div>
+            <div>
+                <img src="developer.jpg" alt="Developer">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
